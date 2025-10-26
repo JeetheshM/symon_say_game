@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.main_box {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    width: 200px;
+    height: 200px;
+    margin: 1.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.red {
+    background-color: #ff4d4d;
+}
+.green {
+    background-color: #4dff4d;
+}
+.blue {
+    background-color: #4d4dff;
+}
+.yellow {
+    background-color: #ffff4d;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+.flash{
+    background-color: white;
+}
+.userFlash{
+    background-color: green;
+}
